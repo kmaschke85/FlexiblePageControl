@@ -150,6 +150,7 @@
 				D4DC6C371E92B8FD0022F452 /* Frameworks */,
 				D4DC6C381E92B8FD0022F452 /* Headers */,
 				D4DC6C391E92B8FD0022F452 /* Resources */,
+				3AE8C7AF2212DCC8007B1E6B /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -247,6 +248,26 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3AE8C7AF2212DCC8007B1E6B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "ditto ${BUILT_PRODUCTS_DIR}/FlexiblePageControl.framework ${SRCROOT}/../../ONECore/ONECore/Frameworks/${PLATFORM_NAME}/FlexiblePageControl.framework\n\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D4DC6C361E92B8FD0022F452 /* Sources */ = {
